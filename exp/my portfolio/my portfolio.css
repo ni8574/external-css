@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  
+  color: #333;
+}
+
+/* Navbar */
+header {
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  padding: 60px 0;
+  
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+}
+
+.hero-text span {
+  color: #007bff;
+}
+
+.hero-text p {
+  margin: 15px 0;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: hsl(0, 33%, 99%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-img img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* About */
+.about {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Skills */
+.skills {
+  text-align: center;
+  padding: 40px 20px;
+  
+}
+
+.skill-box span {
+  display: inline-block;
+  margin: 10px;
+  padding: 8px 15px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+/* Projects */
+.projects {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.project-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    display: none;
+  }
+}
