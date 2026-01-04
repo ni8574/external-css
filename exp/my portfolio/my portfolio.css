@@ -36,7 +36,7 @@ nav a {
   font-weight: 500;
 }
 
-/* Hero */
+
 .hero {
   padding: 60px 0;
   
@@ -86,7 +86,7 @@ nav a {
   margin: 20px auto;
 }
 
-/* Skills */
+
 .skills {
   text-align: center;
   padding: 40px 20px;
@@ -101,7 +101,7 @@ nav a {
   border-radius: 20px;
 }
 
-/* Projects */
+
 .projects {
   text-align: center;
   padding: 60px 20px;
@@ -123,7 +123,7 @@ nav a {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Contact */
+
 .contact {
   text-align: center;
   padding: 60px 20px;
